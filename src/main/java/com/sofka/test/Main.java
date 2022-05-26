@@ -6,10 +6,21 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Se crea la clase Main
+ */
 public class Main {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
+        /**
+         * Se crea el atributo result de tipo String para almacenar el resultado de las operaciones.
+         */
         String result = "";
         Calculator calculator = new Calculator();
         Scanner in = new Scanner(System.in);
