@@ -17,6 +17,10 @@ public class Calculator {
      * @param numberOne este parámetro es requerido para realizar la suma
      * @param numerTwo  este parámetro es requerido para realizar la suma
      * @return al realizar la suma el método retorna un valor de tipo double
+     *
+     * @author Oscar Farfan - oscarfarfan92@gmail.com
+     *
+     * @since 1.00.000 22-05-2022
      */
     public double sumar(double numberOne, double numerTwo){
         return numberOne + numerTwo;
@@ -28,6 +32,10 @@ public class Calculator {
      * @param numberOne este parámetro es requerido para realizar la resta
      * @param numerTwo  este parámetro es requerido para realizar la resta
      * @return al realizar la resta el método retorna un valor de tipo double
+     *
+     * @author Oscar Farfan - oscarfarfan92@gmail.com
+     *
+     * @since 1.00.000 22-05-2022
      */
     public double resta(double numberOne, double numerTwo){
         return numberOne - numerTwo;
@@ -39,6 +47,10 @@ public class Calculator {
      * @param numberOne este parámetro es requerido para realizar la multiplicación
      * @param numerTwo  este parámetro es requerido para realizar la multiplicación
      * @return al realizar la multiplicación el método retorna un valor de tipo double
+     *
+     * @author Oscar Farfan - oscarfarfan92@gmail.com
+     *
+     * @since 1.00.000 22-05-2022
      */
     public double multiplicar(double numberOne, double numerTwo){
         return numberOne * numerTwo;
@@ -50,6 +62,10 @@ public class Calculator {
      * @param numberOne este parámetro es requerido para realizar la división
      * @param numerTwo  este parámetro es requerido para realizar la división
      * @return al realizar la división el método retorna un valor de tipo double
+     *
+     * @author Oscar Farfan - oscarfarfan92@gmail.com
+     *
+     * @since 1.00.000 22-05-2022
      */
     public double division(double numberOne, double numerTwo){
         return numberOne / numerTwo;
