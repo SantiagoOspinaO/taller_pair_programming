@@ -11,7 +11,6 @@ public class Main {
     public static void main(String[] args) {
 
         String result = "";
-
         Calculator calculator = new Calculator();
         Scanner in = new Scanner(System.in);
         Logger logger = Logger.getLogger("logger");
