@@ -47,15 +47,15 @@ public class Main {
                      logger.info(result);
                      break;
                  case 2:
-                     result = "La resta de " + numberOne + " + " + numberTwo + " es " +  calculator.resta(numberOne, numberTwo);
+                     result = "La resta de " + numberOne + " - " + numberTwo + " es " +  calculator.resta(numberOne, numberTwo);
                      logger.info(result);
                      break;
                  case 3:
-                     result = "La multiplicacion de " + numberOne + " + " + numberTwo + " es " +  calculator.multiplicar(numberOne, numberTwo);
+                     result = "La multiplicacion de " + numberOne + " * " + numberTwo + " es " +  calculator.multiplicar(numberOne, numberTwo);
                      logger.info(result);
                      break;
                  case 4:
-                     result = "La division de " + numberOne + " + " + numberTwo + " es " +  calculator.division(numberOne, numberTwo);
+                     result = "La division de " + numberOne + " / " + numberTwo + " es " +  calculator.division(numberOne, numberTwo);
                      logger.info(result);
                      break;
                  case 0:
